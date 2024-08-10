@@ -1,0 +1,65 @@
+main{
+    position: relative;
+    padding: 10%;
+}
+
+.picturecontainer{
+    position: relative;
+    height: 10rem;
+}
+
+.mypicture{
+    position: absolute; 
+    width: 57%; 
+    left: 0%; 
+    right: 0%; 
+    margin: auto; 
+    border-radius: 100%; 
+    top: 0%; 
+    bottom: 0%;
+}
+
+.aboutmecode{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+.color-blue{
+    color: blue;
+}
+
+.color-red{
+    color: red;
+}
+
+.color-green{
+    color: green;
+}
+
+.color-pink{
+    color: rgb(212, 24, 121);
+}
+
+.project-container{
+    margin-top: 15%;
+    position: relative;
+    width: auto;
+}
+
+.project{
+    position: relative;
+    width: auto;
+    padding: 5%;
+    background-color: rgba(49, 49, 49, 0.816);
+    border-radius: 10px;
+}
+
+.contact-details{
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 5%;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 10rem;
+}
