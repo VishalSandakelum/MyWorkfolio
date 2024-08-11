@@ -46,6 +46,14 @@ main{
     width: auto;
 }
 
+.project-header{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700 !important;
+    font-size: 26px;
+    color: #5d5d5d !important;
+    text-transform: uppercase;
+}
+
 .project{
     position: relative;
     width: auto;
