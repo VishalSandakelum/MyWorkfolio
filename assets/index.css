@@ -59,7 +59,64 @@ main{
     width: auto;
     height: auto;
     padding: 5%;
-    background-color: red;
     border-radius: 10px;
+    background-color: #eeeaea7c;
     margin-top: 10rem;
+}
+
+.contact-header{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700 !important;
+    font-size: 26px;
+    color: #5d5d5d !important;
+}
+
+.contact-paragraph{
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #666;
+    margin-top: 1rem;
+}
+
+.mail-details-container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.mail-details-container>i,.contactbuttoncontainer>i{
+    position: relative;
+    height: fit-content;
+    font-size: 33px;
+    color: #72b626;
+    margin-right: 1rem;
+}
+
+.mail-details-container>div>h4,.contactbuttoncontainer>div>h4,.contactbuttoncontainer>div>a>h4{
+    font-family: 'Sora', sans-serif;
+    color: #666666d0;
+}
+
+.contactbuttoncontainer{
+    position: relative;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.contactbuttoncontainer>button{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 0px;
+    background-color: #eee;
+    transition: all;
+    transition-duration: 1s;
+    margin-right: 15px;
+    border: 1px solid #a09f9f80;
+}
+
+.contactbuttoncontainer>button>a>i{
+    color: #666;
 }
