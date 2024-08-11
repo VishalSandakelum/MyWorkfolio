@@ -57,7 +57,7 @@ main{
 .project{
     position: relative;
     width: auto;
-    padding: 5%;
+    padding: 2rem;
     background-color: rgba(49, 49, 49, 0.816);
     border-radius: 10px;
 }
@@ -138,4 +138,44 @@ footer>p{
     font-weight: 400;
     font-size: 15px;
     color: #666;
+}
+
+.project-title{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: large;
+}
+
+.project-details{
+    font-family: 'Sora', sans-serif;
+    color: #ffffff;
+    font-size: small;
+}
+
+.project-link{
+    font-family: 'Sora', sans-serif;
+    color: #078be9;
+    font-size: small;
+}
+
+.project-image{
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: redd;
+}
+
+@media all and (min-width: 1400px){
+    .project{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .project-image{
+        height: auto;
+    }
+
+    .project-image>img{
+        width: 100% !important;
+    }
 }
