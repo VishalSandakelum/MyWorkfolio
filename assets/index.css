@@ -128,3 +128,14 @@ main{
 .contactbuttoncontainer>button>a>i{
     color: #666;
 }
+
+footer{
+    width: auto;
+}
+
+footer>p{
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #666;
+}
